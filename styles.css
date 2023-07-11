@@ -87,12 +87,17 @@ nav {
 }
 
 /*Menú en desktop*/
+.title-desktopmenu {
+    font-weight: bold;
+    margin-left: 14px;
+    font-size: var(--md);
+}
 .desktop-menu {
     position: absolute;
     top: 71.8px;
     right: 40px;
     background: var(--white);
-    width: 100px;
+    width: 120px;
     height: auto;
     border: 1px solid var(--very-light-pink);
     border-radius: 6px;
@@ -360,7 +365,7 @@ aside {
     .desktop-menu {
         display: none;
     }
-    .product-detail{
+    #product-detail{
         width: 100%;
     }
     .cards-container{
