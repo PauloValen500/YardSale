@@ -78,7 +78,41 @@ productList.push({
     price: 40,
     image: 'https://images.pexels.com/photos/702350/pexels-photo-702350.jpeg?auto=compress&cs=tinysrgb&w=400'
 });
-
+productList.push({
+    name: 'Toy cart',
+    price: 8,
+    image: 'https://images.pexels.com/photos/35619/capri-ford-oldtimer-automotive.jpg?auto=compress&cs=tinysrgb&w=400'
+});
+productList.push({
+    name: 'pots for plants',
+    price: 10,
+    image: 'https://images.pexels.com/photos/4505144/pexels-photo-4505144.jpeg?auto=compress&cs=tinysrgb&w=400'
+});
+productList.push({
+    name: 'Camera',
+    price: 95,
+    image: 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=400'
+});
+productList.push({
+    name: 'labial',
+    price: 25,
+    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=400'
+});
+productList.push({
+    name: 'Hand watch',
+    price: 80,
+    image: 'https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=600'
+});
+productList.push({
+    name: 'Headphones',
+    price: 75,
+    image: 'https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg?auto=compress&cs=tinysrgb&w=400'
+});
+productList.push({
+    name: 'PlayStation controller',
+    price: 90,
+    image: 'https://images.pexels.com/photos/459762/pexels-photo-459762.jpeg?auto=compress&cs=tinysrgb&w=600'
+});
 function renderProducts(arr) {
     for (product of arr) {
         const productCard = document.createElement('div');
