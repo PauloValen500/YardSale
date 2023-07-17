@@ -85,9 +85,10 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.email img {
+.menu-arrow {
     margin-left: 10px;
     transform: rotate(90deg);
+    margin-right: 10px;
 }
 
 /*Menú en desktop*/
@@ -98,7 +99,7 @@ nav {
 }
 .desktop-menu {
     position: absolute;
-    top: 71.8px;
+    top: 59.8px;
     right: 40px;
     background: var(--white);
     width: 120px;
@@ -137,12 +138,12 @@ nav {
 /*Menu en mobile*/
 .mobile-menu {
     position: absolute;
-    top: 71.8px;
+    top: 59.8px;
     padding: 5px;
     background-color: var(--white);
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 1900%;
 }
 .mobile-menu a {
     text-decoration: none;
@@ -327,6 +328,10 @@ aside {
 .product-card {
     width: 240px;
 }
+.product-card:hover {
+    background-color: var(--text-input-field);
+    border-radius: 20px;
+}
 .product-card img {
     width: 100%;
     height: 240px;
@@ -338,6 +343,7 @@ aside {
     justify-content: space-between;
     align-items: center;
     margin-top: 12px;
+    margin-left: 5px;
 }
 .product-card .product-info figure img {
     width: 35px;
@@ -359,6 +365,12 @@ aside {
     color: var(--very-light-pink);
 }
 
+@media (max-width: 816px) {
+    .email {
+        display: none;
+    }
+}
+
 @media (max-width: 640px) {
     .menu {
         display: block;
@@ -366,7 +378,7 @@ aside {
     .navbar-left ul {
         display: none;
     }
-    .email {
+    .menu-arrow {
         display: none;
     }
     .desktop-menu {
